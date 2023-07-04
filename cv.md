@@ -1,6 +1,6 @@
 # Zhanna (Jane) Antipushina
 
-![Photo](/photo.jpg)
+![Photo](/photo.jpeg)
 
 **Student of Technological Institute of Informatics (Montevideo, Uruguay), methodist and biologist with 19 years of experience, PhD in Biology.**
 
