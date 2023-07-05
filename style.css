@@ -80,6 +80,14 @@ footer {
   margin: 10px;
 }
 
+#year {
+  width: 100px;
+  margin: 15px;
+  margin-left: 750px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
 body {
   display: flex;
   flex-direction: column;
