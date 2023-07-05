@@ -1,0 +1,107 @@
+#about {
+  display: flex;
+  direction: row;
+}
+
+#myPhoto {
+  display: block;
+  margin: 20px;
+}
+
+#photo {
+  border-radius: 100px;
+  box-shadow: 0 0 0 3px white, 0 0 13px grey;
+  width: 150px;
+  margin: 10px;
+}
+
+#card {
+  font-weight: bold;
+  display: block;
+  width: 300px;
+  margin: 2px;
+  flex-grow: 2;
+}
+
+#contacts {
+  text-align: justify;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-left: 10px;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+
+.contact-img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 16px;
+}
+
+.row {
+  width: 100%;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+
+.grid-element {
+  flex-grow: 2;
+  width: 50%;
+  padding: 10px;
+}
+
+#list > li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+
+#logo {
+  width: 50px;
+  margin: 10px;
+}
+
+#github {
+  width: 100px;
+  margin: 10px;
+}
+
+#year {
+  width: 100px;
+  margin: 15px;
+  margin-left: 750px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  max-width: 1024px;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
