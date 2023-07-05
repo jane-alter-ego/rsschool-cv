@@ -4,7 +4,7 @@
 
 **Student of Technological Institute of Informatics (Montevideo, Uruguay), methodist and biologist with 19 years of experience, PhD in Biology.**
 
-<p>I worked at the Biology Museum in Moscow, but moved to Uruguay in 2022. Now I am studying informatics and web development.</p>
+<p>I worked at the Biology Museum in Moscow, but in 2022 moved to Uruguay. Now I am studying informatics and web development.</p>
 
 > **Contact Info:**
 >
@@ -41,7 +41,7 @@ _2003 - 2005_ Biology Teacher, The School of RUT #1, Moscow
 
 ### Education
 
-_2023 - present_ Technological Institute of Informatics
+_2023 - present_ Technological Institute of Informatics, Montevideo
 
 _2022 - present_ Self-study / Online courses _CódigoFacilito_, _Hexlet_, _LinkedIn Learning_, _Netologia_, _GeekBrains_
 
@@ -55,11 +55,25 @@ _2001-2006_ Moscow Pedagogical State University, Teacher of Biology and Chemistr
 
 ### Skills
 
-<p>Beginner: HTML/CCS, JS, Java, Bootstrap, Git</p>
+<p>Beginner: HTML/CSS, JS, Java, Bootstrap, Git</p>
 <p>English B1</p>
-<p>Spanish (Castellano) B2</p>
+<p>Spanish (Castellano, Rioplatense) B2</p>
 <p>Russian (native speaker)</p>
 
 ---
 
 ### Code Example
+```javascript
+  // character count in string case insensitive
+  const countChars = (str, char) => {
+    let i = 0;
+    let count = 0;
+    while (i < str.length) {
+      if (str[i] === char.toLowerCase() || str[i] === char.toUpper.Case()) {
+        count++;
+      }
+      i++;
+    }
+    return count;
+  };
+```
