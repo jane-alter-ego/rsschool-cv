@@ -58,7 +58,7 @@
   padding: 10px;
 }
 
-#list > li {
+.list > li {
   list-style-type: none;
 }
 
