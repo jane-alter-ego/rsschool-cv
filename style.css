@@ -105,3 +105,7 @@ html {
   align-items: center;
   flex-direction: column;
 }
+
+.color {
+  color: #050505;
+}
