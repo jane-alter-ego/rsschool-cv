@@ -109,3 +109,7 @@ html {
 .color {
   color: #050505;
 }
+
+a {
+  color: transparent;
+}
